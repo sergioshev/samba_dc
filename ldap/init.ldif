@@ -1,0 +1,16 @@
+dn: o=tq
+objectClass: top
+objectClass: organization
+o: tq
+
+dn: cn=ldapadmin,o=tq
+objectClass: simpleSecurityObject
+objectClass: inetOrgPerson
+cn: ldapadmin
+sn: ldapadmin
+userPassword: {SHA}MqE+JWH9DnT9MdKyqZEvWE0cICM=
+
+dn: ou=users,o=tq
+objectClass: organizationalUnit
+ou: users
+
